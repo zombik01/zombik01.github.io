@@ -1,0 +1,55 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+ }
+html{height: 100%}
+body {
+    white: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #333:
+    font-size: 4em;
+    line-height: 135%;
+    fload: left;
+    font-famoly: Arial, sans-serif;
+ }
+a{
+    color: #FF9000;
+    text-decoration: none;
+ }
+a:hover {color: #efdea0;}
+a, a:hover {
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+ }
+.clear {clear: borh;}
+/* Стили для шапки */
+header{
+    widht: 98%;
+    fload: left;
+    padding: 1.7%;
+    background-color: #fafafa;
+    border-bottom: 2px solid silver;
+    font-size:2.1em;
+ }
+header #logo{
+    color:;
+    width: 25%;
+    float: left;
+}
+
+header #game {
+    width: 25%;
+    float: left;
+ }
+header #document {
+    width: 25%;
+    float: left;  
+ }
+header #textbook{
+    width: 25%;
+    float: left;  
+}
