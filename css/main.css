@@ -1,4 +1,3 @@
-@charset "utf-8"
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +8,6 @@ body {
     height: 100%;
     background-color: #fff;
     color: #333:
-    font-family: Arial, sans-serif;
     font-size: 1em;
     line-height: 135%;
     fload: left;
