@@ -1,19 +1,12 @@
-﻿* {
+﻿
+* {
     margin: 0;
     padding: 0;
     outline: none;
  }
 html{height: 100%;}
-body {
-    white: 100%;
-    height: 100%;
-    background-color: #fff;
-    color: #333;
-    font-size: 1em;
-    line-height: 135%;
-    fload: left;
- 
- }
+
+
 a{
     color: #59c523;
     text-decoration: none;
@@ -30,6 +23,63 @@ a, a:hover {
     clear: borh;
 }
 /* Стили для шапки */
+
+@media(max-width:  720px){
+body {
+    white: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #333;
+    font-size: 0.3em;
+    line-height: 135%;
+    fload: left;
+}
+header{
+    widht: 95%;
+    fload: left;
+    margin-top: 0.5%;
+    padding: 4.5%;
+    background-color: #fafafa;
+    border-bottom: 2px solid silver; 
+
+ }
+header #logo {
+    fload:left;
+    color: #59c523;
+    font-size:0.2em;
+
+}
+header #logo a{
+    width: 25%;
+    float: left;
+ }
+header #game {
+    width: 25%;
+    float: left;
+ }
+header #document {
+    width: 30%;
+    float: left;  
+ }
+header #textbook{
+    width: 20%;
+    float: left; 
+    text-line: rignt; 
+}
+#bykwaz{
+    color: red;
+    font-size: 0.5em;
+}}
+@media(min-width:  651px){
+body {
+    white: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+    line-height: 135%;
+    fload: left;
+}
 header{
     widht: 96.6%;
     fload: left;
@@ -65,7 +115,7 @@ header #textbook{
 #bykwaz{
     color: red;
     font-size: 1.7em;
-}
+}}
 #logo, #game, #document, #textbook {
     font-family: 'Arthur Gothic';
 }
