@@ -107,7 +107,7 @@ header #document {
     width: 35%;
     float: left;  
  }
-header #textbook{
+header #project{
     width: 20%;
     float: left; 
     text-line: rignt; 
@@ -116,7 +116,7 @@ header #textbook{
     color: red;
     font-size: 1.7em;
 }}
-#logo, #game, #document, #textbook {
+#logo, #game, #document, #project {
     font-family: 'Arthur Gothic';
 }
 #gotika { font-family: 'Arthur Gothic';}
